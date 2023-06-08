@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Rest of your CSS styles */
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.producto {
+    /* Rest of your styles */
+    border: 2px solid transparent; /* Add this line to initially hide the border */
+    transition: border-color 0.3s ease; /* Add this line for smooth transition */
+}
+
+.producto:hover {
+    border-color: #333; /* Add this line to apply the border color on hover */
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+}
+
+.producto h3 {
+    margin-top: 10px;
+}
+
+.producto p {
+    margin-top: 5px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
